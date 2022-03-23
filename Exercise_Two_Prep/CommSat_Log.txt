@@ -1,0 +1,126 @@
+Astrogator Log File; DriverMCS: Mission_Control_Sequence
+-------------------------------------------------------------
+
+
+----------------------------------------------
+Begin targeter profile Raise_Apoapsis.Differential_Corrector
+
+Initial control parameters:
+
+Unscaled Controls:
+Name                                                       Current Value           Last Update         Total Correction
+Maneuver : ImpulsiveMnvr.Pointing.Spherical.Magnitude  2014.135937852122 m/sec  0.000000000000 m/sec  2014.135937852122 m/sec
+
+
+Homotopy step   1 of   1
+
+Intermediate Goals Desired:
+Propagate : Altitude_Of_Apoapsis  22000.000000000000 km
+
+
+
+---Running one step of the differential corrector...
+
+--------------------------------------------------------
+
+<<< Targeting Finished >>>
+    [Goals met]
+
+
+--------------------------------------------------------
+
+---Done. (running one step of the differential corrector.)
+
+Params from single diff corr
+
+Unscaled Controls:
+Name                                                       Current Value           Last Update         Total Correction
+Maneuver : ImpulsiveMnvr.Pointing.Spherical.Magnitude  2014.135937852122 m/sec  0.000000000000 m/sec  2014.135937852122 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                                   Current Value                Desired         Difference          Tolerance
+Propagate : Altitude_Of_Apoapsis  21999.999271910168 km  22000.000000000000 km -0.000728089832 km  0.100000000000 km
+
+
+
+----------------------------------------------
+Final Params from Homotopy Diff Corr
+
+Unscaled Controls:
+Name                                                       Current Value           Last Update         Total Correction
+Maneuver : ImpulsiveMnvr.Pointing.Spherical.Magnitude  2014.135937852122 m/sec  0.000000000000 m/sec  2014.135937852122 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                                   Current Value                Desired         Difference          Tolerance
+Propagate : Altitude_Of_Apoapsis  21999.999271910168 km  22000.000000000000 km -0.000728089832 km  0.100000000000 km
+
+
+
+----------------------------------------------
+
+*********** Done Targeting************************
+
+End targeter profile Raise_Apoapsis.Differential_Corrector
+----------------------------------------------
+Begin targeter profile _Raise_Periapsis.Differential_Corrector
+
+Initial control parameters:
+
+Unscaled Controls:
+Name                                                       Current Value           Last Update         Total Correction
+Maneuver : ImpulsiveMnvr.Pointing.Spherical.Magnitude  1400.000000000000 m/sec  0.000000000000 m/sec  1400.000000000000 m/sec
+
+
+Homotopy step   1 of   1
+
+Intermediate Goals Desired:
+Propagate : Altitude_Of_Periapsis  22000.000000000000 km
+
+
+
+---Running one step of the differential corrector...
+
+--------------------------------------------------------
+
+<<< Targeting Finished >>>
+    [Goals met]
+
+
+--------------------------------------------------------
+
+---Done. (running one step of the differential corrector.)
+
+Params from single diff corr
+
+Unscaled Controls:
+Name                                                       Current Value           Last Update         Total Correction
+Maneuver : ImpulsiveMnvr.Pointing.Spherical.Magnitude  1400.000000000000 m/sec  0.000000000000 m/sec  1400.000000000000 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                                    Current Value                Desired         Difference          Tolerance
+Propagate : Altitude_Of_Periapsis  22000.050961905563 km  22000.000000000000 km  0.050961905561 km  0.100000000000 km
+
+
+
+----------------------------------------------
+Final Params from Homotopy Diff Corr
+
+Unscaled Controls:
+Name                                                       Current Value           Last Update         Total Correction
+Maneuver : ImpulsiveMnvr.Pointing.Spherical.Magnitude  1400.000000000000 m/sec  0.000000000000 m/sec  1400.000000000000 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                                    Current Value                Desired         Difference          Tolerance
+Propagate : Altitude_Of_Periapsis  22000.050961905563 km  22000.000000000000 km  0.050961905561 km  0.100000000000 km
+
+
+
+----------------------------------------------
+
+*********** Done Targeting************************
+
+End targeter profile _Raise_Periapsis.Differential_Corrector

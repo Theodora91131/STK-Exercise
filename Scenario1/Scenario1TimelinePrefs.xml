@@ -1,0 +1,32 @@
+<?xml version = "1.0" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "12.2.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "Scenario1 AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/Scenario1" Type = "IntervalList">
+                <Interval Name = "Scenario1 AvailabilityIntervals" StartTime = "1 May 2021 04:00:00.000" StopTime = "2 May 2021 04:00:00.000" />
+            </Row>
+            <Row ClassName = "Aircraft" ComponentName = "AvailabilityTimeSpan" DisplayName = "Aircraft1 AvailabilityTimeSpan" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/Scenario1/Aircraft/Aircraft1" Type = "Interval">
+                <Interval Name = "Aircraft1 AvailabilityTimeSpan" StartTime = "1 May 2021 04:00:00.000" StopTime = "2 May 2021 05:24:22.467" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Place-Bloomington-Sensor-Sensor1-To-Satellite-ZARYA_25544 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Scenario1/Place/Bloomington/Sensor/Sensor1;/Application/STK/Scenario/Scenario1/Satellite/ZARYA_25544" Type = "IntervalList">
+                <Interval Name = "Place-Bloomington-Sensor-Sensor1-To-Satellite-ZARYA_25544 AccessIntervals" StartTime = "1 May 2021 07:37:22.916" StopTime = "1 May 2021 07:40:52.613" />
+                <Interval Name = "Place-Bloomington-Sensor-Sensor1-To-Satellite-ZARYA_25544 AccessIntervals" StartTime = "1 May 2021 09:12:13.080" StopTime = "1 May 2021 09:18:55.030" />
+                <Interval Name = "Place-Bloomington-Sensor-Sensor1-To-Satellite-ZARYA_25544 AccessIntervals" StartTime = "1 May 2021 10:50:40.893" StopTime = "1 May 2021 10:55:06.243" />
+                <Interval Name = "Place-Bloomington-Sensor-Sensor1-To-Satellite-ZARYA_25544 AccessIntervals" StartTime = "1 May 2021 12:29:29.003" StopTime = "1 May 2021 12:32:07.503" />
+                <Interval Name = "Place-Bloomington-Sensor-Sensor1-To-Satellite-ZARYA_25544 AccessIntervals" StartTime = "1 May 2021 14:05:45.833" StopTime = "1 May 2021 14:11:21.601" />
+                <Interval Name = "Place-Bloomington-Sensor-Sensor1-To-Satellite-ZARYA_25544 AccessIntervals" StartTime = "1 May 2021 15:42:16.020" StopTime = "1 May 2021 15:48:50.580" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Place-Bloomington-Sensor-Sensor1-To-Satellite-ZARYA_25544 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Scenario1/Place/Bloomington/Sensor/Sensor1;/Application/STK/Scenario/Scenario1/Satellite/ZARYA_25544" Type = "IntervalList">
+                <Interval Name = "Place-Bloomington-Sensor-Sensor1-To-Satellite-ZARYA_25544 AccessIntervals" StartTime = "1 May 2021 07:37:22.916" StopTime = "1 May 2021 07:40:52.613" />
+                <Interval Name = "Place-Bloomington-Sensor-Sensor1-To-Satellite-ZARYA_25544 AccessIntervals" StartTime = "1 May 2021 09:12:13.080" StopTime = "1 May 2021 09:18:55.030" />
+                <Interval Name = "Place-Bloomington-Sensor-Sensor1-To-Satellite-ZARYA_25544 AccessIntervals" StartTime = "1 May 2021 10:50:40.893" StopTime = "1 May 2021 10:55:06.243" />
+                <Interval Name = "Place-Bloomington-Sensor-Sensor1-To-Satellite-ZARYA_25544 AccessIntervals" StartTime = "1 May 2021 12:29:29.003" StopTime = "1 May 2021 12:32:07.503" />
+                <Interval Name = "Place-Bloomington-Sensor-Sensor1-To-Satellite-ZARYA_25544 AccessIntervals" StartTime = "1 May 2021 14:05:45.833" StopTime = "1 May 2021 14:11:21.601" />
+                <Interval Name = "Place-Bloomington-Sensor-Sensor1-To-Satellite-ZARYA_25544 AccessIntervals" StartTime = "1 May 2021 15:42:16.020" StopTime = "1 May 2021 15:48:50.580" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/Scenario1" GlobalStartOffset = "0.000000" GlobalStartTime = "1 May 2021 04:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "2 May 2021 04:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>

@@ -1,0 +1,90 @@
+VO_V120		
+ShowGfx		 Yes
+
+BEGIN Volumetric3D
+    Show		 Yes
+    Shading		 No
+    Smoothing		 No
+    AutoUpdate		 Yes
+    RenderingQuality		 2
+    RenderPlanes		 No
+    PlaneTranslucencyMultiplier		 10
+    RenderGradientVectors		 No
+    GradientVectorWidth		 1
+    GradientVectorLength		 100
+    GradientVectorColor		 1 1 0 1
+    BEGIN Grid
+        PointSize		 5
+        Show		 No
+        DisplayLines		 Yes
+        DisplayPoints		 Yes
+        LineColor		 255 255 255
+        PointColor		 255 255 255
+    END Grid
+
+    BEGIN Volume
+        Show		 Yes
+        RenderImplicitSurfaces		 No
+        RenderFilledVolume		 Yes
+        ClampToMinMaxColor		 No
+        BEGIN ColorTranslation
+            ControlPoint		  1.6000000000000000e+05 1 0 0 0.8100000023841858
+            ControlPoint		  3.6000000000000000e+05 1 0.364705890417099 0 0.8100000023841858
+            ControlPoint		  5.6000000000000000e+05 1 0.7254902124404907 0 0.8100000023841858
+            ControlPoint		  7.6000000000000000e+05 0.9098039269447327 1 0 0.8100000023841858
+            ControlPoint		  9.6000000000000000e+05 0.5450980663299561 1 0 0.8100000023841858
+            ControlPoint		  1.1600000000000000e+06 0.1803921610116959 1 0 0.8100000023841858
+            ControlPoint		  1.3600000000000000e+06 0 1 0.1803921610116959 0.8100000023841858
+            ControlPoint		  1.5600000000000000e+06 0 1 0.5450980663299561 0.8100000023841858
+            ControlPoint		  1.7600000000000000e+06 0 1 0.9098039269447327 0.8100000023841858
+            ControlPoint		  1.9600000000000000e+06 0 0.7254902124404907 1 0.8100000023841858
+            ControlPoint		  2.0000000000000000e+06 0 0 1 0.8100000023841858
+        END ColorTranslation
+    END Volume
+
+    BEGIN SatisfactionVolume
+        Show		 No
+        RenderImplicitSurfaces		 No
+        RenderFilledVolume		 Yes
+        ClampToMinMaxColor		 Yes
+        BEGIN ImplicitSurfaceValues
+            SurfaceValue		  0.0000000000000000e+00 1 0 0 0.7814559936523438
+        END ImplicitSurfaceValues
+        BEGIN ColorTranslation
+            ControlPoint		 -9.9999999747524271e-07 1 0 0 0.7516890168190002
+            ControlPoint		  9.9999999747524271e-07 0 0.501960813999176 0 0.7516890168190002
+        END ColorTranslation
+    END SatisfactionVolume
+
+    BEGIN FillLegend
+        DrawLegend		 Yes
+        PositionX		 5
+        PositionY		 5
+        VerticalAlignment		 Top
+        HorizontalAlignment		 Left
+        Orientation		 HorizMinToMax
+        MaxItemsPerRowCol		 10
+        ColorPixelWidth		 60
+        ColorPixelHeight		 30
+        TextColor		 #ffffff
+        BackgroundColor		 #000000
+        Title		 Altitude(km)
+        Format		 floating_point
+        NumDecimalDigits		 0
+    END FillLegend
+    BEGIN SurfaceLegend
+        DrawLegend		 No
+        PositionX		 5
+        PositionY		 5
+        VerticalAlignment		 Top
+        HorizontalAlignment		 Left
+        Orientation		 HorizMinToMax
+        MaxItemsPerRowCol		 10
+        ColorPixelWidth		 30
+        ColorPixelHeight		 30
+        TextColor		 #ffffff
+        BackgroundColor		 #000000
+        Format		 floating_point
+        NumDecimalDigits		 1
+    END SurfaceLegend
+END Volumetric3D

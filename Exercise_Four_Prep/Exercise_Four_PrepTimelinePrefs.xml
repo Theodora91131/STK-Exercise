@@ -1,0 +1,16 @@
+<?xml version = "1.0" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "12.2.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "Exercise_Four_Prep AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/Exercise_Four_Prep" Type = "IntervalList">
+                <Interval Name = "Exercise_Four_Prep AvailabilityIntervals" StartTime = "1 Apr 2020 18:00:00.000" StopTime = "1 Apr 2020 18:07:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "GroundVehicle-TestVehicle-Sensor-Servo-Receiver-Downlink_Rx-To-Missile-TestMissile-Transmitter-Downlink_Tx AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Exercise_Four_Prep/GroundVehicle/TestVehicle/Sensor/Servo/Receiver/Downlink_Rx;/Application/STK/Scenario/Exercise_Four_Prep/Missile/TestMissile/Transmitter/Downlink_Tx" Type = "IntervalList">
+                <Interval Name = "GroundVehicle-TestVehicle-Sensor-Servo-Receiver-Downlink_Rx-To-Missile-TestMissile-Transmitter-Downlink_Tx AccessIntervals" StartTime = "1 Apr 2020 18:00:00.000" StopTime = "1 Apr 2020 18:06:55.592" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/Exercise_Four_Prep" GlobalStartOffset = "0.000000" GlobalStartTime = "1 Apr 2020 18:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "1 Apr 2020 18:07:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>

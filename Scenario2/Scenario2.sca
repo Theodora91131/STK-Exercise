@@ -1,0 +1,980 @@
+stk.v.12.0
+WrittenBy    STK_v12.2.0
+BEGIN Access
+    Scenario/Scenario2/GroundVehicle/GroundVehicle2
+    Scenario/Scenario2/Place/Mount_St_Helens_WA
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2021-08-04T04:00:00.000000000 2021-08-04T04:02:59.029461568
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2021-08-04T04:01:23.684710847 2021-08-04T04:01:36.170343421
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2021-08-04T04:00:00.000000000 2021-08-04T04:02:59.029461568
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2021-08-04T04:00:00.000000000 2021-08-04T04:02:59.029461568
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2021-08-04T04:00:00.000000000 2021-08-04T04:02:59.029461568
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2021-08-04T04:00:00.000000000 2021-08-04T04:02:59.029461568
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.068
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 AzElMask
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 3
+
+                    BEGIN ConstraintInputTimes
+
+                        2021-08-04T04:00:00.000000000 2021-08-04T04:02:59.029461568
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2021-08-04T04:01:23.684710847 2021-08-04T04:01:36.170343421
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/Scenario2/Satellite/GeoSat
+    Scenario/Scenario2/GroundVehicle/GroundVehicle2
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2021-08-04T04:00:00.000000000 2021-08-04T04:02:58.902794000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2021-08-04T04:00:00.000000000 2021-08-04T04:02:58.902794000
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.51
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 Intervals
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 Intervals
+                    ConData		                    Include		 UseIntervals
+                    ScenarioEpoch		 4 Aug 2021 04:00:00.000000000
+                    BEGIN IntervalList
+ 0.0000000000000000e+00  8.6400000000000000e+04
+                    END IntervalList
+
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2021-08-04T04:00:00.000000000 2021-08-04T04:02:58.902794000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2021-08-04T04:00:00.000000000 2021-08-04T04:02:58.902794000
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2021-08-04T04:00:00.000000000 2021-08-04T04:02:58.902794000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2021-08-04T04:00:00.000000000 2021-08-04T04:02:58.902794000
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/Scenario2/Satellite/GeoSat
+    Scenario/Scenario2/Place/Morton
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2021-08-04T04:00:00.000000000 2021-08-05T04:00:00.000000000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2021-08-04T04:00:00.000000000 2021-08-04T17:38:45.658268992
+        2021-08-05T01:55:11.782343251 2021-08-05T04:00:00.000000000
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.51
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 Intervals
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 Intervals
+                    ConData		                    Include		 UseIntervals
+                    ScenarioEpoch		 4 Aug 2021 04:00:00.000000000
+                    BEGIN IntervalList
+ 0.0000000000000000e+00  8.6400000000000000e+04
+                    END IntervalList
+
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2021-08-04T04:00:00.000000000 2021-08-05T04:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2021-08-04T04:00:00.000000000 2021-08-05T04:00:00.000000000
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2021-08-04T04:00:00.000000000 2021-08-05T04:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2021-08-04T04:00:00.000000000 2021-08-04T19:14:09.219601605
+                        2021-08-05T00:43:35.359118149 2021-08-05T04:00:00.000000000
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.068
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 AzElMask
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 3
+
+                    BEGIN ConstraintInputTimes
+
+                        2021-08-04T04:00:00.000000000 2021-08-04T19:14:09.219601605
+                        2021-08-05T00:43:35.359118149 2021-08-05T04:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2021-08-04T04:00:00.000000000 2021-08-04T17:38:45.658268992
+                        2021-08-05T01:55:11.782343251 2021-08-05T04:00:00.000000000
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/Scenario2/Satellite/GeoSat
+    Scenario/Scenario2/Place/Mount_St_Helens_WA
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2021-08-04T04:00:00.000000000 2021-08-05T04:00:00.000000000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2021-08-04T04:00:00.000000000 2021-08-04T19:21:00.391612934
+        2021-08-05T00:38:42.604835336 2021-08-05T04:00:00.000000000
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.51
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 Intervals
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 Intervals
+                    ConData		                    Include		 UseIntervals
+                    ScenarioEpoch		 4 Aug 2021 04:00:00.000000000
+                    BEGIN IntervalList
+ 0.0000000000000000e+00  8.6400000000000000e+04
+                    END IntervalList
+
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2021-08-04T04:00:00.000000000 2021-08-05T04:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2021-08-04T04:00:00.000000000 2021-08-05T04:00:00.000000000
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2021-08-04T04:00:00.000000000 2021-08-05T04:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2021-08-04T04:00:00.000000000 2021-08-04T19:23:57.843099586
+                        2021-08-05T00:33:45.317917287 2021-08-05T04:00:00.000000000
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.068
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 AzElMask
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 3
+
+                    BEGIN ConstraintInputTimes
+
+                        2021-08-04T04:00:00.000000000 2021-08-04T19:23:57.843099586
+                        2021-08-05T00:33:45.317917287 2021-08-05T04:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2021-08-04T04:00:00.000000000 2021-08-04T19:21:00.391612934
+                        2021-08-05T00:38:42.604835336 2021-08-05T04:00:00.000000000
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/Scenario2/Satellite/CommSat/Transmitter/Transmitter1
+    Scenario/Scenario2/Place/GroundStation/Sensor/Motor/Receiver/Receiver1
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2021-08-04T05:41:30.653703000 2021-08-04T05:47:55.813934000
+        2021-08-04T07:17:09.835681000 2021-08-04T07:28:48.029690000
+        2021-08-04T08:55:51.270807000 2021-08-04T09:08:02.883233000
+        2021-08-04T10:35:28.091183000 2021-08-04T10:47:26.610458000
+        2021-08-04T12:14:52.802476000 2021-08-04T12:27:03.915348000
+        2021-08-04T13:54:06.962047000 2021-08-04T14:05:49.313268000
+        2021-08-04T15:34:48.825623000 2021-08-04T15:41:42.149430000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2021-08-04T05:41:30.662027089 2021-08-04T05:47:55.813934000
+        2021-08-04T07:17:09.848529754 2021-08-04T07:28:48.029690000
+        2021-08-04T08:55:51.281495415 2021-08-04T09:08:02.883233000
+        2021-08-04T10:35:28.100846075 2021-08-04T10:47:26.610458000
+        2021-08-04T12:14:52.815336599 2021-08-04T12:27:03.915348000
+        2021-08-04T13:54:06.975676402 2021-08-04T14:05:49.313268000
+        2021-08-04T15:34:48.830373000 2021-08-04T15:41:42.149430000
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2021-08-04T05:41:30.653703000 2021-08-04T05:47:55.813934000
+                        2021-08-04T07:17:09.835681000 2021-08-04T07:28:48.029690000
+                        2021-08-04T08:55:51.270807000 2021-08-04T09:08:02.883233000
+                        2021-08-04T10:35:28.091183000 2021-08-04T10:47:26.610458000
+                        2021-08-04T12:14:52.802476000 2021-08-04T12:27:03.915348000
+                        2021-08-04T13:54:06.962047000 2021-08-04T14:05:49.313268000
+                        2021-08-04T15:34:48.825623000 2021-08-04T15:41:42.149430000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2021-08-04T05:41:30.662027089 2021-08-04T05:47:55.813934000
+                        2021-08-04T07:17:09.848529754 2021-08-04T07:28:48.029690000
+                        2021-08-04T08:55:51.281495415 2021-08-04T09:08:02.883233000
+                        2021-08-04T10:35:28.100846075 2021-08-04T10:47:26.610458000
+                        2021-08-04T12:14:52.815336599 2021-08-04T12:27:03.915348000
+                        2021-08-04T13:54:06.975676402 2021-08-04T14:05:49.313268000
+                        2021-08-04T15:34:48.830373000 2021-08-04T15:41:42.149430000
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/Scenario2/Place/GroundStation
+    Scenario/Scenario2/Satellite/CommSat
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2021-08-04T04:00:00.000000000 2021-08-05T04:00:00.000000000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2021-08-04T05:41:30.653955426 2021-08-04T05:47:55.813064027
+        2021-08-04T07:17:09.835390873 2021-08-04T07:28:48.029219683
+        2021-08-04T08:55:51.270364482 2021-08-04T09:08:02.882795856
+        2021-08-04T10:35:28.090717788 2021-08-04T10:47:26.609996884
+        2021-08-04T12:14:52.802032518 2021-08-04T12:27:03.914903028
+        2021-08-04T13:54:06.961644616 2021-08-04T14:05:49.312971809
+        2021-08-04T15:34:48.824807943 2021-08-04T15:41:42.149624507
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2021-08-04T04:00:00.000000000 2021-08-05T04:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2021-08-04T05:41:30.653955426 2021-08-04T05:47:55.813064027
+                        2021-08-04T07:17:09.835390873 2021-08-04T07:28:48.029219683
+                        2021-08-04T08:55:51.270364482 2021-08-04T09:08:02.882795856
+                        2021-08-04T10:35:28.090717788 2021-08-04T10:47:26.609996884
+                        2021-08-04T12:14:52.802032518 2021-08-04T12:27:03.914903028
+                        2021-08-04T13:54:06.961644616 2021-08-04T14:05:49.312971809
+                        2021-08-04T15:34:48.824807943 2021-08-04T15:41:42.149624507
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/Scenario2/Satellite/Analyzer/Sensor/Sensor2
+    Scenario/Scenario2/Facility/Exton
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2021-08-04T04:00:00.000000000 2021-08-05T04:00:00.000000000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2021-08-04T13:22:44.294019708 2021-08-04T13:24:13.607078284
+        2021-08-04T14:57:50.914073929 2021-08-04T14:59:19.808335065
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2021-08-04T04:00:00.000000000 2021-08-05T04:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2021-08-04T10:11:14.641590757 2021-08-04T10:16:53.523656436
+                        2021-08-04T11:44:10.281127466 2021-08-04T11:52:58.135650996
+                        2021-08-04T13:18:52.398538209 2021-08-04T13:28:06.338458649
+                        2021-08-04T14:53:58.011221796 2021-08-04T15:03:11.826093270
+                        2021-08-04T16:29:06.639261174 2021-08-04T16:37:52.194240953
+                        2021-08-04T18:05:16.368165429 2021-08-04T18:10:40.882206816
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.17
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 FieldOfView
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2021-08-04T10:11:14.641590757 2021-08-04T10:16:53.523656436
+                        2021-08-04T11:44:10.281127466 2021-08-04T11:52:58.135650996
+                        2021-08-04T13:18:52.398538209 2021-08-04T13:28:06.338458649
+                        2021-08-04T14:53:58.011221796 2021-08-04T15:03:11.826093270
+                        2021-08-04T16:29:06.639261174 2021-08-04T16:37:52.194240953
+                        2021-08-04T18:05:16.368165429 2021-08-04T18:10:40.882206816
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2021-08-04T13:22:44.294019708 2021-08-04T13:24:13.607078284
+                        2021-08-04T14:57:50.914073929 2021-08-04T14:59:19.808335065
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+

@@ -1,0 +1,59 @@
+<?xml version = "1.0" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "12.2.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "Scenario2 AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/Scenario2" Type = "IntervalList">
+                <Interval Name = "Scenario2 AvailabilityIntervals" StartTime = "4 Aug 2021 04:00:00.000" StopTime = "5 Aug 2021 04:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "GroundVehicle-GroundVehicle2-To-Place-Mount_St_Helens_WA AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Scenario2/GroundVehicle/GroundVehicle2;/Application/STK/Scenario/Scenario2/Place/Mount_St_Helens_WA" Type = "IntervalList">
+                <Interval Name = "GroundVehicle-GroundVehicle2-To-Place-Mount_St_Helens_WA AccessIntervals" StartTime = "4 Aug 2021 04:01:23.685" StopTime = "4 Aug 2021 04:01:36.170" />
+            </Row>
+            <Row ClassName = "GroundVehicle" ComponentName = "AttitudeIntervals" DisplayName = "GroundVehicle2 AttitudeIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/Scenario2/GroundVehicle/GroundVehicle2" Type = "IntervalList">
+                <Interval Name = "GroundVehicle2 AttitudeIntervals" StartTime = "4 Aug 2021 04:00:00.000" StopTime = "4 Aug 2021 05:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-GeoSat-To-Place-Mount_St_Helens_WA AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Scenario2/Satellite/GeoSat;/Application/STK/Scenario/Scenario2/Place/Mount_St_Helens_WA" Type = "IntervalList">
+                <Interval Name = "Satellite-GeoSat-To-Place-Mount_St_Helens_WA AccessIntervals" StartTime = "4 Aug 2021 04:00:00.000" StopTime = "4 Aug 2021 19:21:00.392" />
+                <Interval Name = "Satellite-GeoSat-To-Place-Mount_St_Helens_WA AccessIntervals" StartTime = "5 Aug 2021 00:38:42.605" StopTime = "5 Aug 2021 04:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-GeoSat-To-Place-Morton AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Scenario2/Satellite/GeoSat;/Application/STK/Scenario/Scenario2/Place/Morton" Type = "IntervalList">
+                <Interval Name = "Satellite-GeoSat-To-Place-Morton AccessIntervals" StartTime = "4 Aug 2021 04:00:00.000" StopTime = "4 Aug 2021 17:38:45.658" />
+                <Interval Name = "Satellite-GeoSat-To-Place-Morton AccessIntervals" StartTime = "5 Aug 2021 01:55:11.782" StopTime = "5 Aug 2021 04:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-GeoSat-To-GroundVehicle-GroundVehicle2 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Scenario2/Satellite/GeoSat;/Application/STK/Scenario/Scenario2/GroundVehicle/GroundVehicle2" Type = "IntervalList">
+                <Interval Name = "Satellite-GeoSat-To-GroundVehicle-GroundVehicle2 AccessIntervals" StartTime = "4 Aug 2021 04:00:00.000" StopTime = "4 Aug 2021 04:02:58.903" />
+            </Row>
+            <Row ClassName = "Satellite" ComponentName = "abrove80degrees.SatisfactionIntervals" DisplayName = "GeoSat abrove80degrees.SatisfactionIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/Scenario2/Satellite/GeoSat" Type = "IntervalList" />
+            <Row ClassName = "Satellite" ComponentName = "AvailabilityIntervals" DisplayName = "GeoSat AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/Scenario2/Satellite/GeoSat" Type = "IntervalList">
+                <Interval Name = "GeoSat AvailabilityIntervals" StartTime = "4 Aug 2021 04:00:00.000" StopTime = "5 Aug 2021 04:00:00.000" />
+            </Row>
+            <Row ClassName = "Satellite" ComponentName = "visibilityTimes" DisplayName = "GeoSat visibilityTimes" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/Scenario2/Satellite/GeoSat" Type = "IntervalList">
+                <Interval Name = "GeoSat visibilityTimes" StartTime = "4 Aug 2021 04:00:00.000" StopTime = "5 Aug 2021 04:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-Analyzer-Sensor-Sensor2-To-Facility-Exton AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Scenario2/Satellite/Analyzer/Sensor/Sensor2;/Application/STK/Scenario/Scenario2/Facility/Exton" Type = "IntervalList">
+                <Interval Name = "Satellite-Analyzer-Sensor-Sensor2-To-Facility-Exton AccessIntervals" StartTime = "4 Aug 2021 13:22:44.294" StopTime = "4 Aug 2021 13:24:13.607" />
+                <Interval Name = "Satellite-Analyzer-Sensor-Sensor2-To-Facility-Exton AccessIntervals" StartTime = "4 Aug 2021 14:57:50.914" StopTime = "4 Aug 2021 14:59:19.808" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Place-GroundStation-To-Satellite-CommSat AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Scenario2/Place/GroundStation;/Application/STK/Scenario/Scenario2/Satellite/CommSat" Type = "IntervalList">
+                <Interval Name = "Place-GroundStation-To-Satellite-CommSat AccessIntervals" StartTime = "4 Aug 2021 05:41:30.654" StopTime = "4 Aug 2021 05:47:55.813" />
+                <Interval Name = "Place-GroundStation-To-Satellite-CommSat AccessIntervals" StartTime = "4 Aug 2021 07:17:09.835" StopTime = "4 Aug 2021 07:28:48.029" />
+                <Interval Name = "Place-GroundStation-To-Satellite-CommSat AccessIntervals" StartTime = "4 Aug 2021 08:55:51.270" StopTime = "4 Aug 2021 09:08:02.883" />
+                <Interval Name = "Place-GroundStation-To-Satellite-CommSat AccessIntervals" StartTime = "4 Aug 2021 10:35:28.091" StopTime = "4 Aug 2021 10:47:26.610" />
+                <Interval Name = "Place-GroundStation-To-Satellite-CommSat AccessIntervals" StartTime = "4 Aug 2021 12:14:52.802" StopTime = "4 Aug 2021 12:27:03.915" />
+                <Interval Name = "Place-GroundStation-To-Satellite-CommSat AccessIntervals" StartTime = "4 Aug 2021 13:54:06.962" StopTime = "4 Aug 2021 14:05:49.313" />
+                <Interval Name = "Place-GroundStation-To-Satellite-CommSat AccessIntervals" StartTime = "4 Aug 2021 15:34:48.825" StopTime = "4 Aug 2021 15:41:42.150" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-CommSat-Transmitter-Transmitter1-To-Place-GroundStation-Sensor-Motor-Receiver-Receiver1 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Scenario2/Satellite/CommSat/Transmitter/Transmitter1;/Application/STK/Scenario/Scenario2/Place/GroundStation/Sensor/Motor/Receiver/Receiver1" Type = "IntervalList">
+                <Interval Name = "Satellite-CommSat-Transmitter-Transmitter1-To-Place-GroundStation-Sensor-Motor-Receiver-Receiver1 AccessIntervals" StartTime = "4 Aug 2021 05:41:30.662" StopTime = "4 Aug 2021 05:47:55.814" />
+                <Interval Name = "Satellite-CommSat-Transmitter-Transmitter1-To-Place-GroundStation-Sensor-Motor-Receiver-Receiver1 AccessIntervals" StartTime = "4 Aug 2021 07:17:09.849" StopTime = "4 Aug 2021 07:28:48.030" />
+                <Interval Name = "Satellite-CommSat-Transmitter-Transmitter1-To-Place-GroundStation-Sensor-Motor-Receiver-Receiver1 AccessIntervals" StartTime = "4 Aug 2021 08:55:51.281" StopTime = "4 Aug 2021 09:08:02.883" />
+                <Interval Name = "Satellite-CommSat-Transmitter-Transmitter1-To-Place-GroundStation-Sensor-Motor-Receiver-Receiver1 AccessIntervals" StartTime = "4 Aug 2021 10:35:28.101" StopTime = "4 Aug 2021 10:47:26.610" />
+                <Interval Name = "Satellite-CommSat-Transmitter-Transmitter1-To-Place-GroundStation-Sensor-Motor-Receiver-Receiver1 AccessIntervals" StartTime = "4 Aug 2021 12:14:52.815" StopTime = "4 Aug 2021 12:27:03.915" />
+                <Interval Name = "Satellite-CommSat-Transmitter-Transmitter1-To-Place-GroundStation-Sensor-Motor-Receiver-Receiver1 AccessIntervals" StartTime = "4 Aug 2021 13:54:06.976" StopTime = "4 Aug 2021 14:05:49.313" />
+                <Interval Name = "Satellite-CommSat-Transmitter-Transmitter1-To-Place-GroundStation-Sensor-Motor-Receiver-Receiver1 AccessIntervals" StartTime = "4 Aug 2021 15:34:48.830" StopTime = "4 Aug 2021 15:41:42.149" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/Scenario2" GlobalStartOffset = "0.000000" GlobalStartTime = "4 Aug 2021 04:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "5 Aug 2021 04:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>

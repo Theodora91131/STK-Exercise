@@ -1,0 +1,144 @@
+stk.v.12.0
+WrittenBy    STK_v12.2.0
+BEGIN Access
+    Scenario/Exercise_Two_Prep/Place/CommSite/Sensor/Sever/Receiver/Downlink_Receiver
+    Scenario/Exercise_Two_Prep/Satellite/CommSat/Transmitter/Downlink
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Receive
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2020-04-01T18:32:57.921441267 2020-04-01T18:44:37.257521448
+        2020-04-01T20:10:23.953686828 2020-04-01T23:58:02.438762480
+        2020-04-02T03:45:50.874672828 2020-04-02T10:23:10.825161818
+        2020-04-02T22:37:44.868306256 2020-04-03T00:02:06.834800809
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2020-04-01T18:32:57.936598846 2020-04-01T18:44:37.257521448
+        2020-04-01T20:10:23.992896356 2020-04-01T23:58:02.438762480
+        2020-04-02T03:45:50.941718090 2020-04-02T10:23:10.825161818
+        2020-04-02T22:37:45.046000504 2020-04-03T00:02:06.778225706
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2020-04-01T18:32:57.921441267 2020-04-01T18:44:37.257521448
+                        2020-04-01T20:10:23.953686828 2020-04-01T23:58:02.438762480
+                        2020-04-02T03:45:50.874672828 2020-04-02T10:23:10.825161818
+                        2020-04-02T22:37:44.868306256 2020-04-03T00:02:06.834800809
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2020-04-01T18:32:57.921441267 2020-04-01T18:44:37.257521448
+                        2020-04-01T20:10:23.953686828 2020-04-01T23:58:02.438762480
+                        2020-04-02T03:45:50.874672828 2020-04-02T10:23:10.825161818
+                        2020-04-02T22:37:44.868306256 2020-04-03T00:02:06.834800809
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.068
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 AzElMask
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2020-04-01T18:32:57.921441267 2020-04-01T18:44:37.257521448
+                        2020-04-01T20:10:23.953686828 2020-04-01T23:58:02.438762480
+                        2020-04-02T03:45:50.874672828 2020-04-02T10:23:10.825161818
+                        2020-04-02T22:37:44.868306256 2020-04-03T00:02:06.834800809
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2020-04-01T18:32:57.936598846 2020-04-01T18:44:37.257521448
+                        2020-04-01T20:10:23.992896356 2020-04-01T23:58:02.438762480
+                        2020-04-02T03:45:50.941718090 2020-04-02T10:23:10.825161818
+                        2020-04-02T22:37:45.046000504 2020-04-03T00:02:06.778225706
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
